@@ -1,5 +1,7 @@
 # Leaflet.ChineseTmsProviders
 
+----
+
 An extension to [Leaflet](http://leafletjs.com/) that contains configurations for various Chinese tile providers.
 
 ## Usage
@@ -28,7 +30,7 @@ There are more examples at the examples folder like below.
 ./examples/indexMapABC.html
 ./examples/indexGaoDe.html
 ```
-All maps use Coordinate Reference Systems (CRS), which are EPSG:4326. Therefore, they are compatible with other international tile providers that are based on EPSG:4326 or EPSG:900913. So they can be used with other tile providers (e.g. googlemap, OpenStreetMap, OpenWeatherMap, etc.) that are using the same CRS (i.e. EPSG:4326 or EPSG:900913). 
+All maps use Coordinate Reference Systems (CRS), which are EPSG:4326. Therefore, they are compatible with other international tile providers that are based on EPSG:4326 or EPSG:900913. So they can be used with other tile providers (e.g. googlemap, OpenStreetMap, OpenWeatherMap, etc.) that are using the same CRS (i.e. EPSG:4326 or EPSG:900913).
 
 <a name="providers"></a>
 ## Providers

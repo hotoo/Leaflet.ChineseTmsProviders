@@ -1,0 +1,23 @@
+{
+  "name": "leaflet.chinesetmsproviders",
+  "version": "1.0.22",
+  "description": "An extension to Leaflet that contains configurations for various free tile providers.",
+  "main": "src/leaflet.ChineseTmsProviders.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:htoooth/Leaflet.ChineseTmsProviders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htoooth/Leaflet.ChineseTmsProviders/issues"
+  },
+  "spm": {
+    "main": "src/leaflet.ChineseTmsProviders.js",
+    "dependencies": {
+      "leaflet": "~0.7.3",
+      "leaflet-providers": "1.0.22"
+    },
+    "devDependencies": {
+      "jquery": "1.8.3"
+    }
+  }
+}
