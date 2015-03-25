@@ -39,7 +39,7 @@ L.TileLayer.ChinaProvider.providers ={
         },
         Subdomains:["0","1", "2", "3"]
     },
-    
+
     GaoDe:{
         Normal:{
             Map:'http://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',
@@ -49,6 +49,13 @@ L.TileLayer.ChinaProvider.providers ={
             Annotion:'http://webst0{s}.is.autonavi.com/appmaptile?style=8&x={x}&y={y}&z={z}'
         },
         Subdomains:["1","2","3","4"]
+    },
+
+    GoogleCN:{
+        Normal:{
+            Map:'http://mt{s}.google.cn/vt/lyrs=m&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}',
+        },
+        Subdomains:["1","2","3"]
     }
 };
 
