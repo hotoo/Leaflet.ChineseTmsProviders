@@ -10,14 +10,12 @@
   "bugs": {
     "url": "https://github.com/htoooth/Leaflet.ChineseTmsProviders/issues"
   },
-  "spm": {
-    "main": "src/leaflet.ChineseTmsProviders.js",
-    "dependencies": {
-      "leaflet": "~0.7.3",
-      "leaflet-providers": "1.0.22"
-    },
-    "devDependencies": {
-      "jquery": "1.8.3"
-    }
+  "main": "src/leaflet.ChineseTmsProviders.js",
+  "dependencies": {
+    "leaflet": "~0.7.3",
+    "leaflet-providers": "1.0.22"
+  },
+  "devDependencies": {
+    "jquery": "1.8.3"
   }
 }
